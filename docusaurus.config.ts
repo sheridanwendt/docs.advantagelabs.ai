@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Client Onboarding',
-  tagline: 'Everything you need to get started',
+  title: 'Documentation',
+  tagline: 'Getting started, onboarding, integrations, and more.',
   favicon: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',
 
   future: {
@@ -97,7 +97,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          sidebarId: 'advantageEngine',
           position: 'left',
           label: 'Docs',
         },

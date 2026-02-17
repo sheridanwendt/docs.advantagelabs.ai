@@ -1,5 +1,5 @@
 ---
-id: shopify-access
+id: shopify
 title: Shopify Access
 ---
 

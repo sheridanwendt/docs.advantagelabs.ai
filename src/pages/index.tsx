@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/advantage-engine/overview">
             Get Started
           </Link>
         </div>
@@ -32,8 +32,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Home"
-      description="Client onboarding documentation — everything you need to get started.">
+      title="Documentation - Advantage Labs"
+      description="Documentation - Advantage Labs. Getting started guides, onboarding steps, integrations, analytics setup, and platform documentation.">
       <HomepageHeader />
     </Layout>
   );

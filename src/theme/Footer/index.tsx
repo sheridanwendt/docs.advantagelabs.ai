@@ -6,8 +6,8 @@ const LOGO_URL =
   'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true';
 
 const footerLinks = [
-  {label: 'Getting Started', to: '/docs/intro'},
-  {label: 'Onboarding', to: '/docs/onboarding/google-business-profile'},
+  {label: 'Getting Started', to: '/docs/advantage-engine/overview'},
+  {label: 'Onboarding', to: '/docs/advantage-engine/onboarding/gbp-access'},
 ];
 
 const socialLinks: {label: string; href: string; icon: ReactNode}[] = [

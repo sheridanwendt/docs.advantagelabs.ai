@@ -1,4 +1,5 @@
 ---
+id: gohighlevel
 title: GoHighLevel Access
 sidebar_label: GoHighLevel
 description: How to grant Advantage Labs access to your GoHighLevel account.

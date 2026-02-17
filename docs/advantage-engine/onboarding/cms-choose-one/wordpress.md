@@ -1,5 +1,5 @@
 ---
-id: wordpress-access
+id: wordpress
 title: WordPress Access
 ---
 
