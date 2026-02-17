@@ -79,7 +79,7 @@ const config: Config = {
 
     navbar: {
       hideOnScroll: true,
-      title: 'Client Onboarding',
+      title: 'Advantage Labs',
       logo: {
         alt: 'Advantage Labs',
         src: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',

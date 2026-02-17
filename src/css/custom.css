@@ -200,6 +200,44 @@
 }
 
 /* ============================================
+   Hero Tagline Visibility
+   ============================================ */
+
+.hero__title {
+  color: var(--foreground);
+}
+
+.hero__subtitle {
+  color: var(--foreground);
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .hero__title {
+  color: #ffffff;
+}
+
+/* ============================================
+   Sidebar Polish
+   ============================================ */
+
+.menu__list-item-collapsible > .menu__link {
+  font-weight: 600;
+}
+
+.menu__list .menu__list {
+  border-left: 1px solid var(--border);
+  margin-left: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--ifm-color-primary);
+}
+
+/* ============================================
    Homepage: Subtle Radial Background Glow
    ============================================ */
 
