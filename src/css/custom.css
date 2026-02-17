@@ -1,28 +1,378 @@
 /**
- * Custom CSS for Client Onboarding docs.
- * Uses Infima CSS framework defaults with light brand polish.
+ * Custom CSS for Advantage Labs — Brand Design Tokens + Docusaurus Overrides
+ * Uses CSS variables mapped to Infima framework variables.
  */
 
+/* ============================================
+   Brand Design Tokens
+   ============================================ */
+
 :root {
-  --ifm-color-primary: #1a73e8;
-  --ifm-color-primary-dark: #1765d0;
-  --ifm-color-primary-darker: #165fc5;
-  --ifm-color-primary-darkest: #124ea2;
-  --ifm-color-primary-light: #2e80eb;
-  --ifm-color-primary-lighter: #3987ec;
-  --ifm-color-primary-lightest: #5d9df0;
+  /* Brand Colors */
+  --color-brand-primary: #00aaff;
+  --color-brand-secondary: #00ffaa;
+  --color-brand-accent: #ff6b00;
+
+  /* Backgrounds */
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #171717;
+  --accent: #f5f5f5;
+  --accent-foreground: #171717;
+  --destructive: #ef4444;
+  --border: #e5e5e5;
+  --input: #e5e5e5;
+  --ring: #00aaff;
+
+  /* Radii */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  /* ============================================
+     Infima / Docusaurus Variable Overrides
+     ============================================ */
+
+  --ifm-color-primary: var(--color-brand-primary);
+  --ifm-color-primary-dark: #0099e6;
+  --ifm-color-primary-darker: #0088cc;
+  --ifm-color-primary-light: #33bbff;
+  --ifm-color-primary-lighter: #66ccff;
+  --ifm-color-primary-lightest: #99ddff;
+  --ifm-color-primary-darkest: #006699;
+
+  --ifm-background-color: var(--background);
+  --ifm-font-color-base: var(--foreground);
+  --ifm-navbar-background-color: var(--background);
+  --ifm-footer-background-color: #000000;
+  --ifm-border-color: var(--border);
+  --ifm-heading-color: var(--foreground);
   --ifm-code-font-size: 95%;
+  --ifm-border-radius: var(--radius-lg);
+
   --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* ============================================
+   Dark Mode Overrides
+   ============================================ */
+
 [data-theme='dark'] {
-  --ifm-color-primary: #4da3ff;
-  --ifm-color-primary-dark: #2e93ff;
-  --ifm-color-primary-darker: #1f8bff;
-  --ifm-color-primary-darkest: #0072e5;
-  --ifm-color-primary-light: #6cb3ff;
-  --ifm-color-primary-lighter: #7bbbff;
-  --ifm-color-primary-lightest: #b3d9ff;
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card: #0a0a0a;
+  --card-foreground: #fafafa;
+  --popover: #0a0a0a;
+  --popover-foreground: #fafafa;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+  --accent: #262626;
+  --accent-foreground: #fafafa;
+  --destructive: #dc2626;
+  --border: #262626;
+  --input: #262626;
+  --ring: #00aaff;
+
+  --ifm-color-primary: #00aaff;
+  --ifm-color-primary-dark: #0099e6;
+  --ifm-color-primary-darker: #0088cc;
+  --ifm-color-primary-light: #33bbff;
+  --ifm-color-primary-lighter: #66ccff;
+  --ifm-color-primary-lightest: #99ddff;
+  --ifm-color-primary-darkest: #006699;
+
+  --ifm-background-color: var(--background);
+  --ifm-font-color-base: var(--foreground);
+  --ifm-navbar-background-color: var(--background);
+  --ifm-footer-background-color: #000000;
+  --ifm-border-color: var(--border);
+  --ifm-heading-color: var(--foreground);
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode sidebar */
+[data-theme='dark'] .menu {
+  background-color: var(--background);
+}
+
+[data-theme='dark'] .menu__link {
+  color: var(--muted-foreground);
+}
+
+[data-theme='dark'] .menu__link:hover,
+[data-theme='dark'] .menu__link--active {
+  color: var(--foreground);
+}
+
+/* ============================================
+   Primary Button Glow
+   ============================================ */
+
+.button--primary {
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.25);
+  transition: box-shadow 0.2s ease;
+}
+
+.button--primary:hover {
+  box-shadow: 0 0 30px rgba(0, 170, 255, 0.4);
+}
+
+/* ============================================
+   Content Container Width
+   ============================================ */
+
+.main-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   Typography Polish
+   ============================================ */
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  letter-spacing: -0.02em;
+}
+
+.markdown p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* ============================================
+   Scrollbar Styling
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00aaff, #00ffaa);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0099e6, #00e699);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00aaff transparent;
+}
+
+/* ============================================
+   Navbar: Active Item Gradient Underline
+   ============================================ */
+
+.navbar__link--active {
+  position: relative;
+}
+
+.navbar__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00aaff, #00ffaa);
+  border-radius: 1px;
+}
+
+/* ============================================
+   Hero Tagline Visibility
+   ============================================ */
+
+.hero__title {
+  color: var(--foreground);
+}
+
+.hero__subtitle {
+  color: var(--foreground);
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .hero__title {
+  color: #ffffff;
+}
+
+/* ============================================
+   Sidebar Polish
+   ============================================ */
+
+.menu__list-item-collapsible > .menu__link {
+  font-weight: 600;
+}
+
+.menu__list .menu__list {
+  border-left: 1px solid var(--border);
+  margin-left: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--ifm-color-primary);
+}
+
+/* ============================================
+   Homepage: Subtle Radial Background Glow
+   ============================================ */
+
+.hero--primary {
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(0, 170, 255, 0.15) 0%,
+    transparent 70%
+  );
+  background-color: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .hero--primary {
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(0, 170, 255, 0.1) 0%,
+    transparent 70%
+  );
+  background-color: var(--ifm-background-color);
+}
+
+/* ============================================
+   Custom Footer Styles
+   ============================================ */
+
+.custom-footer {
+  background-color: #000000;
+  border-top: 1px solid rgba(0, 170, 255, 0.2);
+  padding: 3rem 1.5rem 1.5rem;
+  color: #a3a3a3;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-footer__glow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #00aaff, transparent);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.custom-footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.custom-footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.custom-footer__logo {
+  height: 36px;
+  width: auto;
+}
+
+.custom-footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.custom-footer__link {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.custom-footer__link:hover {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.custom-footer__right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.custom-footer__social-link {
+  color: #a3a3a3;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-footer__social-link:hover {
+  color: #00aaff;
+}
+
+.custom-footer__social-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+.custom-footer__bottom {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  font-size: 0.8rem;
+  color: #737373;
+}
+
+/* Footer responsive */
+@media screen and (max-width: 768px) {
+  .custom-footer__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .custom-footer__left {
+    align-items: center;
+  }
+
+  .custom-footer__links {
+    align-items: center;
+  }
+
+  .custom-footer__right {
+    justify-content: center;
+  }
 }

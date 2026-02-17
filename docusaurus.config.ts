@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Client Onboarding',
   tagline: 'Everything you need to get started',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',
 
   future: {
     v4: true,
@@ -78,10 +78,12 @@ const config: Config = {
     },
 
     navbar: {
-      title: 'Client Onboarding',
+      hideOnScroll: true,
+      title: 'Advantage Labs',
       logo: {
-        alt: 'Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Advantage Labs',
+        src: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',
+        height: 40,
       },
       items: [
         {
@@ -90,31 +92,12 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {
-          href: 'https://github.com/your-org/docs.advantagelabs.ai',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
 
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Onboarding',
-              to: '/docs/onboarding/google-business-profile',
-            },
-          ],
-        },
-      ],
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Advantage Labs. Built with Docusaurus.`,
     },
 
