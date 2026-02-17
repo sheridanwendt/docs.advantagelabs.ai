@@ -80,8 +80,7 @@ export default function Footer(): ReactNode {
 
       {/* Bottom: Copyright */}
       <div className="custom-footer__bottom">
-        Copyright &copy; {new Date().getFullYear()} Advantage Labs. Built with
-        Docusaurus.
+        Copyright &copy; {new Date().getFullYear()} Advantage Labs.
       </div>
     </footer>
   );

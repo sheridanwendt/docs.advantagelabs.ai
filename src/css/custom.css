@@ -356,6 +356,27 @@
   color: #737373;
 }
 
+/* ============================================
+   "Still stuck?" doc page message
+   ============================================ */
+
+.doc-still-stuck {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+}
+
+.doc-still-stuck a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.doc-still-stuck a:hover {
+  text-decoration: underline;
+}
+
 /* Footer responsive */
 @media screen and (max-width: 768px) {
   .custom-footer__container {

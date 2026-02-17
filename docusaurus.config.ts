@@ -30,6 +30,16 @@ const config: Config = {
     locales: ['en'],
   },
 
+  scripts: [
+    {
+      src: 'https://widgets.leadconnectorhq.com/loader.js',
+      async: true,
+      'data-resources-url':
+        'https://widgets.leadconnectorhq.com/chat-widget/loader.js',
+      'data-widget-id': '68fc5e2adea5c75e16144879',
+    },
+  ],
+
   headTags: [
     {
       tagName: 'meta',
@@ -46,7 +56,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/your-org/docs.advantagelabs.ai/edit/main/',
         },
         blog: false,
         theme: {
@@ -98,7 +107,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Advantage Labs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Advantage Labs.`,
     },
 
     prism: {
