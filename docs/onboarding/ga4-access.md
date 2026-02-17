@@ -19,4 +19,4 @@ title: GA4 Access
 ✅ Access is granted immediately.
 
 <!-- Optional screenshot below -->
-![GA4 Property Access](./blob/main/public/GA4.png?raw=true))
+![GA4 Property Access](./blob/main/docs/onboarding/GA4.png)
