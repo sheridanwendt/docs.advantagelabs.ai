@@ -97,7 +97,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          sidebarId: 'advantageEngine',
           position: 'left',
           label: 'Docs',
         },

@@ -27,7 +27,7 @@ Follow the steps below in order. Each step links to detailed instructions.
 
 Allow us to manage your business listing on Google Maps and Search.
 
-[→ Grant Access to Google Business Profile](./advantage-engine/onboarding/gbp-access)
+[→ Grant Access to Google Business Profile](./onboarding/gbp-access)
 
 ---
 
@@ -35,7 +35,7 @@ Allow us to manage your business listing on Google Maps and Search.
 
 Allow us to monitor your site's indexing and search performance.
 
-[→ Grant Access to Google Search Console](./advantage-engine/onboarding/gsc-access)
+[→ Grant Access to Google Search Console](./onboarding/gsc-access)
 
 ---
 
@@ -43,7 +43,7 @@ Allow us to monitor your site's indexing and search performance.
 
 Allow us to view traffic and engagement data from your website.
 
-[→ Grant Access to Google Analytics 4](./advantage-engine/onboarding/ga4-access)
+[→ Grant Access to Google Analytics 4](./onboarding/ga4-access)
 
 ---
 
@@ -51,7 +51,7 @@ Allow us to view traffic and engagement data from your website.
 
 Complete only the guide for the platform your website is built on:
 
-- [Shopify](./advantage-engine/onboarding/cms-choose-one/shopify)
-- [GoHighLevel](./advantage-engine/onboarding/cms-choose-one/gohighlevel)
-- [WordPress](./advantage-engine/onboarding/cms-choose-one/wordpress)
-- [Webflow](./advantage-engine/onboarding/cms-choose-one/webflow)
+- [Shopify](./onboarding/cms-choose-one/shopify)
+- [GoHighLevel](./onboarding/cms-choose-one/gohighlevel)
+- [WordPress](./onboarding/cms-choose-one/wordpress)
+- [Webflow](./onboarding/cms-choose-one/webflow)
