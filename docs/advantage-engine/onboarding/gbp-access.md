@@ -1,5 +1,5 @@
 ---
-id: google-business-profile
+id: gbp-access
 title: Google Business Profile
 ---
 

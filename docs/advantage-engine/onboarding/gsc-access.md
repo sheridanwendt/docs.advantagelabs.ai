@@ -1,5 +1,5 @@
 ---
-id: google-search-console
+id: gsc-access
 title: Google Search Console
 ---
 

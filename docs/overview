@@ -1,6 +1,6 @@
 ---
-id: intro
-title: Introduction
+id: overview
+title: Advantage Engine — Onboarding Overview
 ---
 
 # Overview: AEO Onboarding
@@ -9,12 +9,49 @@ To properly implement and manage your **Answer Engine Optimization (AEO)** strat
 
 These platforms are foundational data sources used by search engines and AI assistants (such as Google AI Overviews, ChatGPT, and other answer engines) to understand and trust your business information. Access allows us to:
 
-- Ensure your business data is accurate and consistent across search surfaces  
-- Monitor indexing, visibility, and search performance signals  
-- Optimize structured data and content discoverability  
-- Track traffic and engagement from search and AI-driven results  
-- Diagnose issues that may limit your visibility or authority  
+- Ensure your business data is accurate and consistent across search surfaces
+- Monitor indexing, visibility, and search performance signals
+- Optimize structured data and content discoverability
+- Track traffic and engagement from search and AI-driven results
+- Diagnose issues that may limit your visibility or authority
 
 We request only the **minimum permission levels** required to perform optimization and analysis. Ownership of all accounts and properties remains fully with you.
 
-Below are the steps to grant access to the three essential platforms.
+---
+
+## Onboarding Steps
+
+Follow the steps below in order. Each step links to detailed instructions.
+
+### Step 1: Grant Access to Google Business Profile
+
+Allow us to manage your business listing on Google Maps and Search.
+
+[→ Grant Access to Google Business Profile](./advantage-engine/onboarding/gbp-access)
+
+---
+
+### Step 2: Grant Access to Google Search Console
+
+Allow us to monitor your site's indexing and search performance.
+
+[→ Grant Access to Google Search Console](./advantage-engine/onboarding/gsc-access)
+
+---
+
+### Step 3: Grant Access to Google Analytics 4
+
+Allow us to view traffic and engagement data from your website.
+
+[→ Grant Access to Google Analytics 4](./advantage-engine/onboarding/ga4-access)
+
+---
+
+### Step 4: Grant Access to Your CMS (choose one)
+
+Complete only the guide for the platform your website is built on:
+
+- [Shopify](./advantage-engine/onboarding/cms-choose-one/shopify)
+- [GoHighLevel](./advantage-engine/onboarding/cms-choose-one/gohighlevel)
+- [WordPress](./advantage-engine/onboarding/cms-choose-one/wordpress)
+- [Webflow](./advantage-engine/onboarding/cms-choose-one/webflow)
