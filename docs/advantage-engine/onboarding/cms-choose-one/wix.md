@@ -24,3 +24,5 @@ Follow these steps to install the AEO Engine Pixel on your Wix site.
 **Step 5: Click Apply or Save.**
 
 This applies the code site-wide, not just to a single page.
+
+![Wix Custom Code settings](https://downloads.intercomcdn.com/i/o/xx2wxnfz/1855177837/65effee8fbe1c9b86ddfacd4d44d/image.png)

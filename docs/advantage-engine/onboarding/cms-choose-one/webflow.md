@@ -46,3 +46,5 @@ This saves your global header script to your project.
 At the top right of the page, click **Publish → Publish to Selected Domains**.
 
 This pushes the Pixel to the live version of your website, which AEO Engine will scan.
+
+![Webflow Custom Code settings](https://downloads.intercomcdn.com/i/o/xx2wxnfz/1855074258/cf0e4a0e176b1bb16a0ab7d0f312/image.png)

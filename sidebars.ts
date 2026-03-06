@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
             'advantage-engine/onboarding/cms-choose-one/wix',
             'advantage-engine/onboarding/cms-choose-one/squarespace',
             'advantage-engine/onboarding/cms-choose-one/godaddy',
+            'advantage-engine/onboarding/cms-choose-one/clickfunnels',
             'advantage-engine/onboarding/cms-choose-one/wordpress',
           ],
         },
