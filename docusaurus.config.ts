@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Documentation',
   tagline: 'Getting started, onboarding, integrations, and more.',
-  favicon: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',
+  favicon: '/img/logo-advantage-labs.webp',
 
   future: {
     v4: true,
@@ -91,7 +91,7 @@ const config: Config = {
       title: 'Advantage Labs',
       logo: {
         alt: 'Advantage Labs',
-        src: 'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true',
+        src: '/img/logo-advantage-labs.webp',
         height: 40,
       },
       items: [

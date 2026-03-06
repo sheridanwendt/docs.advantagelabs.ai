@@ -1,6 +1,7 @@
 ---
 id: squarespace
 title: Squarespace Access
+description: Install the AEO Engine Pixel on your Squarespace site.
 ---
 
 # Squarespace Access

@@ -1,6 +1,7 @@
 ---
 id: wix
 title: Wix Access
+description: Install the AEO Engine Pixel on your Wix site.
 ---
 
 # Wix Access
