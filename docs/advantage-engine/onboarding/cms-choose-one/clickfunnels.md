@@ -1,6 +1,7 @@
 ---
 id: clickfunnels
 title: ClickFunnels Access
+description: Install the AEO Engine Pixel on your ClickFunnels site.
 ---
 
 # ClickFunnels Access

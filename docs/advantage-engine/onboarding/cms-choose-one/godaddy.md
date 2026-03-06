@@ -2,6 +2,7 @@
 id: godaddy
 title: GoDaddy Website Builder Access
 sidebar_label: GoDaddy Website Builder
+description: Install the AEO Engine Pixel on your GoDaddy Website Builder site.
 ---
 
 # GoDaddy Website Builder Access

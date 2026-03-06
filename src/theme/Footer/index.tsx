@@ -2,8 +2,7 @@ import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
 import {Linkedin, Twitter, Github, Globe} from 'lucide-react';
 
-const LOGO_URL =
-  'https://github.com/sheridanwendt/docs.advantagelabs.ai/blob/main/public/logo%20Advantage%20Labs.webp?raw=true';
+const LOGO_URL = '/img/logo-advantage-labs.webp';
 
 const footerLinks = [
   {label: 'Getting Started', to: '/docs/advantage-engine/overview'},
